@@ -1,0 +1,22 @@
+/**index.wxss**/
+.container{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+image{
+    width: 300rpx;    /* 宽度调整为200rpx */
+    height: 300rpx;   /* 高度与宽度一致，保持圆形 */
+    border-radius: 50%;  /* 圆形裁剪 */
+    border: 2rpx solid #eee;
+    margin-bottom: 30rpx; /* 增加底部间距，与文字分开一点 */
+}
+text{
+    font-size: 50 rpx;
+ 
+    
+    margin: 15rpx 0;        /* 上下边距 */
+}
