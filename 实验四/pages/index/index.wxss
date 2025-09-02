@@ -1,0 +1,63 @@
+/* 视频组件样式 */
+video {
+    width: 100%;
+  }
+  
+  /* 弹幕控制样式 */
+  .danmuArea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80rpx;
+    padding: 10rpx;
+    gap: 10rpx;
+  }
+  
+  input {
+    /* 圆角 */
+    border-radius: 16rpx;
+    border: 1rpx solid #987938;
+    /* margin-left: 5rpx; */
+    flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    padding-left: 15rpx;
+  }
+  
+  button {
+    border-radius: 16rpx;
+    background-color: #987938;
+    color: white;
+    height: 100%;
+    /* width: 100rpx; */
+    /* 居中对齐 */
+    margin: auto;
+  }
+  
+  /* 区域 3：视频列表样式 */
+  .videoList {
+    width: 100%;
+    min-height: 400rpx;
+  }
+  
+  .videoBar {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1rpx solid #987938;
+    margin: 10rpx;
+  }
+  
+  image {
+    width: 70rpx;
+    height: 70rpx;
+    margin: 20rpx;
+  }
+  
+  text {
+    font-size: 45rpx;
+    color: #987938;
+    margin: 20rpx;
+    flex-grow: 1;
+  }
